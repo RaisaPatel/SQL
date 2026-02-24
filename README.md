@@ -1,89 +1,111 @@
-# ✈️ Travel Agency SQL Case Study
+# ✈️ Travel Agency SQL Case Study -- Advanced Analytics
 
 ## 📌 Project Overview
 
-This project is a SQL-based case study for a Travel Agency database. It
-focuses on analyzing customer behavior, agent performance, revenue
-trends, booking insights, and business opportunities using advanced SQL
-queries.
+This project is an advanced SQL business analytics case study built on a
+Travel Agency database (travel_agency2).
 
-The project demonstrates: - Aggregate Functions - GROUP BY & HAVING -
-Window Functions (RANK) - CASE Statements - Revenue Analysis - Seasonal
-Analysis - Customer Segmentation - Business Insight Queries
+The objective of this project is to generate meaningful business
+insights using advanced SQL concepts such as revenue contribution
+analysis, window functions, customer segmentation, seasonal performance
+analysis, and risk profiling.
 
 ------------------------------------------------------------------------
 
 ## 🗄️ Database Setup
 
-CREATE DATABASE travel_agency; USE travel_agency;
+``` sql
+CREATE DATABASE travel_agency2;
+USE travel_agency2;
+```
 
 ------------------------------------------------------------------------
 
 ## 📊 Database Tables Used
 
--   Customers
--   Bookings
--   Payments
--   Tours
--   TravelAgents
--   Reviews
+-   customers
+-   bookings
+-   payments
+-   tours
+-   travelagents
+-   reviews
 
 ------------------------------------------------------------------------
 
 ## 🔍 Business Problems Solved
 
-1.  Top 5 Countries with Most Customers\
-2.  Rank Agents by Average Revenue\
-3.  Customer Segmentation (Low / Medium / High Spenders)\
-4.  Customer Booking Summary with Ratings\
-5.  Most Popular Destination\
-6.  High Rated but Low Booking Tours\
-7.  Destination with Highest Revenue\
-8.  Loyalty Reward (20% Concession)\
-9.  Most Booked Package Type\
-10. Highest Revenue Generating Agent\
-11. Pending Payments Analysis\
-12. High Season Revenue Analysis\
-13. Multi-Season Customers\
-14. Revenue Lost Due to Cancellations\
-15. Customers with Multiple Pending Payments\
-16. Loyalty Member Spending Comparison
+1.  Top 3 revenue generating agents with % contribution\
+2.  Most popular destination based on bookings\
+3.  Top 5 countries with most customers\
+4.  Customer booking summary (total bookings, spending, ratings)\
+5.  Destination revenue contribution percentage\
+6.  Rank agents by average revenue (Window Function)\
+7.  Inactive customers (no bookings in last 1 year)\
+8.  Customer segmentation with discount logic\
+9.  Customers booking in multiple seasons\
+10. High rated but low booking tours (opportunity analysis)\
+11. Repeat customers with 20% concession\
+12. Pending payment analysis\
+13. Agent top season analysis using window functions\
+14. Quarterly cancellation revenue loss (last 2 years)\
+15. High-risk customers with multiple pending payments\
+16. Loyalty vs non-loyalty spending comparison
 
 ------------------------------------------------------------------------
 
-## 🛠️ SQL Concepts Used
+## 🛠️ Advanced SQL Concepts Used
 
 -   GROUP BY
 -   HAVING
 -   ORDER BY
 -   LIMIT
 -   CASE
--   JOIN (INNER / LEFT)
+-   INNER JOIN / LEFT JOIN
+-   NOT EXISTS
 -   RANK() OVER()
--   COUNT()
+-   MAX() OVER (PARTITION BY)
 -   SUM()
 -   AVG()
+-   COUNT()
 -   DATE_SUB()
 -   YEAR()
 -   QUARTER()
+-   Subqueries
+-   Revenue percentage calculations
+
+------------------------------------------------------------------------
+
+## 📈 Key Business Insights
+
+-   Identified revenue concentration among top agents\
+-   Compared destination profitability\
+-   Detected inactive customers\
+-   Segmented high-value customers\
+-   Measured cancellation losses\
+-   Analyzed seasonal agent performance\
+-   Evaluated loyalty program effectiveness\
+-   Identified high-risk customers
 
 ------------------------------------------------------------------------
 
 ## 🚀 How to Run
 
-1.  Install MySQL (Workbench recommended)
-2.  Create the database
-3.  Run the SQL script
-4.  Execute queries individually to generate insights
+1.  Install MySQL / MySQL Workbench\
+2.  Create the database\
+3.  Import tables and data\
+4.  Execute analytical queries\
+5.  Use output for reporting and business insights
 
 ------------------------------------------------------------------------
 
-## 🎯 Learning Outcomes
+## 🎯 Skills Demonstrated
 
--   Real-world SQL analytics
--   Business insight generation
--   Advanced query writing
--   Revenue & customer behavior analysis
+-   Advanced SQL Analytics\
+-   Window Functions\
+-   Business Intelligence Thinking\
+-   Revenue & Financial Analysis\
+-   Customer Segmentation\
+-   Risk Analysis
 
 ------------------------------------------------------------------------
 
