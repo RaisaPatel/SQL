@@ -1,0 +1,51 @@
+TourID,Destination,PackageType,Duration,PricePerPerson,Season,AgentID
+1,Barcelona,Flight+Tour,4,2790,High,4
+2,New York,Flight+Tour,3,2169,Low,4
+3,Berlin,Complete Package,10,1701,High,5
+4,New York,Flight+Tour,9,1794,Low,4
+5,Sydney,Hotel+Tour,5,2669,Low,1
+6,Maldives,Flight+Tour,5,2876,High,1
+7,New York,Hotel+Tour,4,2201,Low,2
+8,London,Flight+Tour,10,2188,Low,3
+9,Paris,Hotel+Tour,8,1198,Low,1
+10,New York,Flight+Hotel,5,574,Low,1
+11,Barcelona,Hotel+Tour,10,2639,Low,1
+12,Tokyo,Flight+Hotel,3,1233,High,3
+13,Tokyo,Hotel+Tour,3,2493,Low,5
+14,Tokyo,Complete Package,4,2351,Low,2
+15,Maldives,Flight+Tour,9,2945,Low,1
+16,New York,Hotel+Tour,10,690,High,5
+17,Barcelona,Hotel+Tour,4,531,Low,4
+18,Barcelona,Hotel+Tour,4,2622,Low,5
+19,Barcelona,Complete Package,7,2624,Low,3
+20,Goa,Flight+Hotel,10,1863,Low,3
+21,Paris,Flight+Tour,8,1016,High,1
+22,Sydney,Flight+Hotel,8,1018,Low,3
+23,Dubai,Complete Package,4,2654,High,5
+24,Dubai,Complete Package,4,777,High,3
+25,Tokyo,Complete Package,3,765,High,3
+26,Tokyo,Flight+Tour,3,1916,Low,3
+27,Barcelona,Flight+Tour,4,1748,Low,4
+28,Paris,Flight+Tour,6,2091,High,3
+29,Goa,Complete Package,8,983,High,1
+30,Berlin,Flight+Hotel,9,2011,High,3
+31,Berlin,Hotel+Tour,7,559,High,1
+32,New York,Flight+Tour,10,1051,High,5
+33,Tokyo,Flight+Hotel,5,2285,High,5
+34,Maldives,Flight+Tour,8,2335,High,4
+35,Paris,Complete Package,8,1748,High,3
+36,Sydney,Flight+Hotel,5,1336,High,2
+37,Paris,Flight+Hotel,7,2610,Low,2
+38,London,Flight+Tour,10,630,Low,1
+39,Barcelona,Hotel+Tour,9,709,High,1
+40,Barcelona,Hotel+Tour,4,818,High,4
+41,Berlin,Complete Package,4,1233,High,4
+42,Sydney,Flight+Tour,9,1294,High,4
+43,Dubai,Flight+Hotel,6,1729,Low,2
+44,Berlin,Complete Package,5,2011,Low,2
+45,Maldives,Flight+Tour,5,2941,Low,3
+46,Dubai,Hotel+Tour,4,2233,High,1
+47,Maldives,Flight+Hotel,3,993,Low,2
+48,Goa,Hotel+Tour,10,1715,Low,5
+49,New York,Hotel+Tour,5,1732,Low,1
+50,Paris,Flight+Tour,5,2035,Low,5
